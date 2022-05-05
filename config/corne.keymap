@@ -12,10 +12,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 &mmv {    
         time-to-max-speed-ms = <500>;
-        acceleration-exponent=<2>;
+        acceleration-exponent=<1>;
 };
 &mwh {    
-        acceleration-exponent=<2>;
+        acceleration-exponent=<1>;
 }; 
 / {
         behaviors {
