@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: mouse-pr-remote
-      url-base: https://github.com/krikun98/
+      url-base: https://github.com/ftc
   projects:
     - name: zmk
       remote: mouse-pr-remote
-      revision: mouse-pr
+      revision: mouse-ftc
       import: app/west.yml
   self:
     path: config
