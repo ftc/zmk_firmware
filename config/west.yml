@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/urob
   projects:
     - name: zmk
-      remote: urob
-      revision: mouse-3.2
+      remote: mouse-pr-remote
+      revision: mouse-ftc
       import: app/west.yml
   self:
     path: config
